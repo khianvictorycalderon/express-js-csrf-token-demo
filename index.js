@@ -18,7 +18,7 @@ app.get("/", (_req, res) => {
 
 // Sub route
 app.use("/api/token", require("./routes/token"));
-app.use("/api/validate", require("./routes/token"));
+app.use("/api/validate", require("./routes/validate"));
 
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
