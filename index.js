@@ -2,6 +2,8 @@ const express = require("express");
 const cors = require("cors");
 const PORT = 3000;
 
+// CSRF Token Demo
+
 // Start the app
 const app = express();
 
