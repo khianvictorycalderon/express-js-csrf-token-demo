@@ -10,7 +10,7 @@ const VALID_TOKENS = [
     "MBN4-93IL"
 ];
 
-router.get("/token", (_req, res) => {
+router.get("/", (_req, res) => {
     
     const token = VALID_TOKENS[Math.floor(Math.random() * VALID_TOKENS.length)];
     res.status(200).send(token);
