@@ -1,5 +1,5 @@
 # Express JS CSRF Token Demo
-Simulates how a CRSF token flows from server to client to server again.
+Simulates how a CRSF token flows from server to client to server again. (Inspired by Django).
 
 ## Steps:
 1. Clone this repository `git clone https://github.com/khianvictorycalderon/express-js-csrf-token-demo.git`
