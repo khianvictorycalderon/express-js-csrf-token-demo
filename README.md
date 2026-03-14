@@ -7,7 +7,7 @@ Simulates how a CRSF token flows from server to client to server again. (Inspire
 3. `npm run server` to test the server.
 
 ## API Routes:
-- `/` (GET) - Use to test if API is working.
+- `/` (GET) - Use to test if API is working correctly.
 - `/api/token` (GET) - Use to retrieve valid CSRF tokens from server. (SAMPLE TOKENS ONLY).
 - `/api/validate` (POST) - Use to verify data integrity along with `CSRF-KEY` header from request.
 
