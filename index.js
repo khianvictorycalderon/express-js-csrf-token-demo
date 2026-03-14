@@ -14,6 +14,9 @@ app.get("/", (_req, res) => {
     res.send("API is working!");
 });
 
+// Sub route
+app.use("/api", require("./routes/token"));
+
 app.listen(PORT, () => {
     console.log(`Server running at http://localhost:${PORT}`);
 });
