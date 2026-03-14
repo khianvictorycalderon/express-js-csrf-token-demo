@@ -1,6 +1,6 @@
-import { VALID_TOKENS } from "../valid_tokens";
 const express = require("express");
 const router = express.Router();
+const VALID_TOKENS = require("../valid_tokens");
 
 router.get("/", (_req, res) => {
     
