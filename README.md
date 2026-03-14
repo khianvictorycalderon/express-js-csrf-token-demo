@@ -12,7 +12,7 @@ Simulates how a CRSF token flows from server to client to server again. (Inspire
 - `/api/validate` (POST) - Use to verify data integrity along with `CSRF-KEY` header from request.
 
 ## Usage
-1. Go to `https://apixer.vercel.app/` (as an API tester website).
+1. Go to [Apixer](https://apixer.vercel.app/) website to test this project.
 2. Fetch `http://localhost:3000/api/token` path using GET method and copy the given token.
 3. Put it in header like this:
   ```json
