@@ -4,7 +4,7 @@ Simulates how a CRSF token flows from server to client to server again. (Inspire
 ## Steps:
 1. Clone this repository `git clone https://github.com/khianvictorycalderon/express-js-csrf-token-demo.git`
 2. run `npm install` to install dependencies.
-3. `npm run dev` to test the frontend.
+3. `npm run dev` to test the server.
 
 ## API Routes:
 - `/` (GET) - Use to test if API is working.
